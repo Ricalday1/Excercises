@@ -31,7 +31,7 @@ namespace Consola_Tabla_de_amortizacion
                 return;
             }*/
 
-                //
+                //Hola
                 decimal Interes_pagado = 0;
                 decimal Capital_pagado = 0;
                 decimal Plazo = 0;
