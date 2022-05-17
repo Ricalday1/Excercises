@@ -1,7 +1,7 @@
-﻿using Marvel;
+﻿using Heroesvillanos;
 
 var repository = new Repository();
 
 foreach (var heroevillano in repository.GetAll())
 {
-    Console.WriteLine(heroevillano.Title);
+    Console.WriteLine(heroevillano.Name);
