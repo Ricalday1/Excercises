@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Marvel;
+
+var repository = new Repository();
+
+foreach (var heroevillano in repository.GetAll())
+{
+    Console.WriteLine(heroevillano.Title);
