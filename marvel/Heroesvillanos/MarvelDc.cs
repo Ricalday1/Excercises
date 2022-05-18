@@ -18,9 +18,11 @@ public class MarvelDc
 
     public Status Status {get; set;}
 
-    public DateTime Appearences {get; set;}
+    public int Appearences {get; set;}
 
-    public  DateTime Year {get; set;}
+    public DateTime FirstAppearences {get; set;}
+
+    public  int Year {get; set;}
 
     public string Universe {get;}
 
