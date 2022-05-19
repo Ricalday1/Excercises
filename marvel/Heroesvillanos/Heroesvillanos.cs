@@ -1,6 +1,6 @@
-public class MarvelDc
+public class Heroesvillanos
 {
-    public MarvelDc(string name)
+    public Heroesvillanos(string name)
     {
         this.Name = name;
     }
